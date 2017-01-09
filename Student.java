@@ -1,4 +1,4 @@
-import java,.util.*;
+import java.util.*;
 class Student{
 String name;
 int id;
@@ -11,13 +11,13 @@ adress=a;
 }
 void display()
 {
-System.out.println("+name");
-System.out.println(+id);
-System.out.println("+adress");
-public Static main(String[] arg)
+System.out.println(name);
+System.out.println(id);
+System.out.println(adress);
 }
+public static void main(String[] arg)
 {
-Student s=new Student(aparna,12,koramangala);
+Student s=new Student("aparna",12,"koramangala");
 s.display();
 }
 }
